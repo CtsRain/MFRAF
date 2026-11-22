@@ -54,7 +54,7 @@ def get_loss_function(loss_mode='bce', focal_alpha=0.25, focal_gamma=2.0):
         )
 
 
-"""------------------------ balanced batch -------------------------"""
+""" balanced batch """
 class BalancedBatchGenerator(tf.keras.utils.Sequence):
     def __init__(
         self,

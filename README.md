@@ -1,8 +1,8 @@
-## MFRAF
+# MFRAF
 
-# MFRAF: Edge-Deployable Multi-Period Feature Recalibration and Adaptive Fusion for Electricity Theft Detection
+## MFRAF: Edge-Deployable Multi-Period Feature Recalibration and Adaptive Fusion for Electricity Theft Detection
 
-# code structure
+## code structure
 
 data folder: stores datasets
 
