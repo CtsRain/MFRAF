@@ -2,12 +2,10 @@ from sklearn.model_selection import train_test_split
 from model import *
 from function import *
 from utils import *
-import random
-
 
 if __name__ == '__main__':
 
-    data = pd.read_csv('data/after_preprocess_data1035.csv')
+    data = pd.read_csv('data/data.csv')
     label = pd.read_csv('data/label.csv')
 
     for valr in [0.8]:  # train dataset ratio
